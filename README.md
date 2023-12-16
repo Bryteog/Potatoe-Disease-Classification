@@ -8,4 +8,5 @@ Built a model to classify potatoes leafs as either healthy or diseased, the clas
 Image preprocessing via flipping, rescaling, normalising, zooming and rotation is applied to the train set only. The model has two versions which differ in duration of training.
 
 The accuracy of training and testing sets for version 1 after 10 epochs is 90% and 91% respectively with losses of 0.249 and 0.1994.
+
 Version 2 uses the mobilenet_v2 prtrained model and after training for 12 epochs had 99.3% and 95.86% accuracy and losses of 0.1672 and 0.2791 for both the training and testing sets respectively.
